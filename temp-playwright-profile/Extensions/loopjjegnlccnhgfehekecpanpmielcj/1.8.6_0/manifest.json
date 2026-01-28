@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_title": "__MSG_extDefaultTitle__"
+   },
+   "author": "Sanjay Kumar",
+   "background": {
+      "service_worker": "extension/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content-script/contentScript.css" ],
+      "js": [ "content-script/contentScript.js", "content-script/web-page.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "https://selectorshub.com/testcase-studio/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "logo-128.png",
+      "48": "logo-48.png",
+      "96": "logo-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtkq7hq/JvJYspPhGGNviMNAMxTiXjhT0fwCaiM00N69fUN5GOZoBvOmiDaIW5xPo8n1r4AqjE+QdHmq6E2vw42UVEBzjvp30sc0dNuvmir/NmQQl6ji7AmkSnTngu//vkhbQfLU9/IzZm8F9QhqwMd7dP58FJcOLY6d2tEd9X+NdD8FhLiLEu6uyZC5deJUIXeWygsGws9TLucMpWJe4w7/mrDDHbkpM1MNN46TS6qZ3gPbIUmZNfOzjoeYJJJFhCZ3lXpopryipPqtI2PAEVQZUMKOMEdMCxBMT1MRpmUhy0MhNnRga5khdrbRc5F9gQQG/BShwIlVS+mMKT03ukQIDAQAB",
+   "manifest_version": 3,
+   "name": "TestCase Studio - Selenium IDE",
+   "offline_enabled": true,
+   "permissions": [ "contextMenus", "notifications", "storage", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.6"
+}

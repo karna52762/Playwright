@@ -1,0 +1,7 @@
+2025/11/10-11:40:42.019 23f4 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_archive.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/10-11:40:42.020 23f4 Recovering log #3
+2025/11/10-11:40:42.021 23f4 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_archive.org_0.indexeddb.leveldb/000003.log 
+2025/11/10-11:41:18.545 8dcc Level-0 table #5: started
+2025/11/10-11:41:18.546 8dcc Level-0 table #5: 1552 bytes OK
+2025/11/10-11:41:18.548 8dcc Delete type=0 #3
+2025/11/10-11:41:18.548 8dcc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

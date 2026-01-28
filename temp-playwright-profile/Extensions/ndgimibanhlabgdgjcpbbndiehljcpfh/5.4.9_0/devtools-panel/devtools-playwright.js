@@ -1,0 +1,13 @@
+function extractSelectorLabel(a){return(a=a.match(/page\.([\w]+)\(/))?a[1]:"selector"}function escapeHtml(a){const e=document.createElement("div");e.textContent=a;return e.innerHTML}function escapeForJs(a){return a.replace(/\\/g,"\\\\").replace(/'/g,"\\'").replace(/"/g,'\\"').replace(/\n/g,"\\n").replace(/`/g,"\\`")}
+function displayPlaywrightSelectors(a){console.log("called-sachi-n"+a);console.log(a.length);const e=document.getElementById("pw-selectorList");a&&0!==a.length?(e.innerHTML="",console.log(a.length),a.forEach((b,d)=>{d=document.createElement("div");d.className="pw-selector-item";var f="many";1===b.count?f="unique":2<=b.count&&5>=b.count&&(f="few");const k=1===b.count?"unique":"",l=extractSelectorLabel(b.selector);d.innerHTML=`
+            <span class="pw-selector-count-badge ${f}">${b.count}</span>
+            <div class="pw-copy-icon-container">
+                <button class="pw-copy-icon" title="Copy to clipboard">
+                </button>
+                <div class="pw-tooltip">Copied!</div>
+            </div>
+            <span class="pw-selector-label">${l}</span>
+            <code class="pw-selector-code ${k}">${escapeHtml(b.selector)}</code>
+        `;e.appendChild(d);f=d.querySelector(".pw-copy-icon");const h=d.querySelector(".pw-tooltip");d=d.querySelector(".pw-selector-code");f.addEventListener("click",async()=>{try{console.log(b.selector);var g=b.selector;let c=document.createElement("textarea");c.id="t";c.style.height=0;document.body.appendChild(c);c.value=g;document.querySelector("#t").select();document.execCommand("copy");document.body.removeChild(c);h.classList.add("show");setTimeout(()=>{h.classList.remove("show")},2E3)}catch(c){console.error("Failed to copy text: ",
+c)}});d.addEventListener("click",async()=>{var g=b.selector,c=document.querySelector(".jsSelector");c.value=g;c.focus()});document.querySelector(".pw-selector-item code").style.color="#ff6b00"})):e.innerHTML='\n            <div class="empty-state">\n                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">\n                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />\n                </svg>\n                <p>No selectors generated yet</p>\n            </div>\n        '}
+document.addEventListener("DOMContentLoaded",function(){chrome.storage.local.get("selectedbutton",a=>{a=a.selectedbutton;a||(a="standard",chrome.storage.local.set({selectedbutton:"standard"}));"playwright"===a&&(playwrightBtn.click(),setTimeout(()=>{document.querySelector(".configOptions").style.visibility="hidden"},300))})});

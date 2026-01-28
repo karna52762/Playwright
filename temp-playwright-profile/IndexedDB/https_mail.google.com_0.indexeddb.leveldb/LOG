@@ -1,0 +1,12 @@
+2025/11/13-18:24:58.969 2ac4 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/13-18:24:58.970 2ac4 Recovering log #125
+2025/11/13-18:24:58.973 2ac4 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000125.log 
+2025/11/13-18:25:01.690 3e54 Compacting 1@1 + 1@2 files
+2025/11/13-18:25:01.708 3e54 Generated table #128@1: 133 keys, 629287 bytes
+2025/11/13-18:25:01.709 3e54 Compacted 1@1 + 1@2 files => 629287 bytes
+2025/11/13-18:25:01.711 3e54 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/13-18:25:01.712 3e54 Delete type=2 #124
+2025/11/13-18:25:01.712 3e54 Delete type=2 #126
+2025/11/13-18:25:15.087 2ac4 Level-0 table #130: started
+2025/11/13-18:25:15.113 2ac4 Level-0 table #130: 3145658 bytes OK
+2025/11/13-18:25:15.116 2ac4 Delete type=0 #125

@@ -1,0 +1,6 @@
+2025/10/16-11:26:23.061 1ab0 Creating DB C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.naukri.com_0.indexeddb.leveldb since it was missing.
+2025/10/16-11:26:23.067 1ab0 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.naukri.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/16-13:14:51.333 824 Level-0 table #5: started
+2025/10/16-13:14:51.335 824 Level-0 table #5: 40048 bytes OK
+2025/10/16-13:14:51.336 824 Delete type=0 #3
+2025/10/16-13:14:51.337 824 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

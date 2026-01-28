@@ -1,0 +1,35 @@
+{
+   "author": "Koushik Chatterjee",
+   "background": {
+      "service_worker": "service_worker.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "app/styles/highlight.css" ],
+      "js": [ "app/src/content.js", "app/src/conversion.js", "app/src/anchorXPath.js", "app/src/getCSS.js", "app/src/getLabel.js", "app/src/methodName.js", "app/src/record.js", "app/src/search.js", "app/src/textXPath.js", "app/src/utils.js", "app/src/parentElements.js", "app/src/handleTable.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "XPath Finder, simple and useful, open-source project by LetCode with Koushik",
+   "devtools_page": "devtools.html",
+   "differential_fingerprint": "1.248af31e647a4b0f0b571e34b294da4cec90169fea7ece3dd9774036c988f253",
+   "homepage_url": "https://www.letcode.in",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/32.png",
+      "16": "assets/16.png",
+      "32": "assets/32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnWePmqdkK4JFSfkgYABpjS1+41odC6U6+752jdymCUz7nHzl+T0IQ20AL9E9tYnRJVUM8J7jeHdIiDIyaS+RiPArsqTwg6kjZl4K8vwYgBHlyOsV1pLvUTLvZMLK1CuzqFc8QxanhQLs9gbYjY6EGmRkz9eipX54eRpLGWouMA6pCDBzRdfZ6KioIHwDiY1w6R0TqHyq94Yp9UcjDRW0aQvgL7AkBgyXFwtEXGMJQxoqWfPMl6RVf8EOy08+lNGvRBsyz72v0y//DsV9bTGN8brXIO2bMFc9L+FGdPNpTCsGIcoiTyYw9J87RXtOc1QRi/8XhovKV4MNaG6TsWF17QIDAQAB",
+   "manifest_version": 3,
+   "name": "LetXPath",
+   "offline_enabled": true,
+   "options_page": "option/option.html",
+   "permissions": [ "contextMenus", "activeTab", "storage", "notifications" ],
+   "short_name": "XPath finder",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1"
+}

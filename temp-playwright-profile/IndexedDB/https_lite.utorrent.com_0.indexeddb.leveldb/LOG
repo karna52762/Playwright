@@ -1,0 +1,6 @@
+2025/11/14-02:09:02.662 4c94 Creating DB C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_lite.utorrent.com_0.indexeddb.leveldb since it was missing.
+2025/11/14-02:09:02.674 4c94 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_lite.utorrent.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/14-02:09:05.377 858c Level-0 table #5: started
+2025/11/14-02:09:05.380 858c Level-0 table #5: 1518 bytes OK
+2025/11/14-02:09:05.384 858c Delete type=0 #3
+2025/11/14-02:09:05.384 858c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

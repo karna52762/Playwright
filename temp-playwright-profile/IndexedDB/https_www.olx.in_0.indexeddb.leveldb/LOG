@@ -1,0 +1,6 @@
+2025/11/14-21:35:41.476 858c Creating DB C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.olx.in_0.indexeddb.leveldb since it was missing.
+2025/11/14-21:35:41.490 858c Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.olx.in_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/14-21:44:34.935 858c Level-0 table #5: started
+2025/11/14-21:44:34.939 858c Level-0 table #5: 3838 bytes OK
+2025/11/14-21:44:34.944 858c Delete type=0 #3
+2025/11/14-21:44:34.944 858c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

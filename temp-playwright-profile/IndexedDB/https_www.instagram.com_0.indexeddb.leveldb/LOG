@@ -1,0 +1,15 @@
+2025/11/10-18:20:47.007 8dcc Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/10-18:20:47.008 8dcc Recovering log #4
+2025/11/10-18:20:47.013 8dcc Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/000004.log 
+2025/11/10-23:04:45.932 8dcc Level-0 table #8: started
+2025/11/10-23:04:45.946 8dcc Level-0 table #8: 198553 bytes OK
+2025/11/10-23:04:45.951 8dcc Delete type=0 #4
+2025/11/10-23:04:45.951 8dcc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/10-23:04:45.952 8dcc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0c\x0b\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 5260 : 1
+2025/11/10-23:04:45.952 8dcc Compacting 1@1 + 1@2 files
+2025/11/10-23:04:45.965 8dcc Generated table #9@1: 1971 keys, 71390 bytes
+2025/11/10-23:04:45.965 8dcc Compacted 1@1 + 1@2 files => 71390 bytes
+2025/11/10-23:04:45.969 8dcc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/10-23:04:45.970 8dcc Delete type=2 #5
+2025/11/10-23:04:45.971 8dcc Delete type=2 #8
+2025/11/10-23:04:45.972 8dcc Manual compaction at level-1 from '\x00\x0c\x0b\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 5260 : 1 .. (end); will stop at (end)

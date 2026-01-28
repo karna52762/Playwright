@@ -1,0 +1,25 @@
+2025/11/14-15:42:19.389 4c94 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.hotstar.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/14-15:42:19.391 4c94 Recovering log #19
+2025/11/14-15:42:19.393 4c94 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.hotstar.com_0.indexeddb.leveldb/000019.log 
+2025/11/14-15:42:19.427 4c94 Level-0 table #24: started
+2025/11/14-15:42:19.432 4c94 Level-0 table #24: 2053 bytes OK
+2025/11/14-15:42:19.438 4c94 Delete type=0 #19
+2025/11/14-15:42:19.439 4c94 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/14-18:53:00.571 324c Compacting 1@1 + 1@2 files
+2025/11/14-18:53:00.585 324c Generated table #25@1: 407 keys, 177313 bytes
+2025/11/14-18:53:00.585 324c Compacted 1@1 + 1@2 files => 177313 bytes
+2025/11/14-18:53:00.590 324c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/14-18:53:00.592 324c Delete type=2 #21
+2025/11/14-18:53:00.592 324c Delete type=2 #24
+2025/11/14-18:53:00.593 22d4 Level-0 table #27: started
+2025/11/14-18:53:00.609 22d4 Level-0 table #27: 5219 bytes OK
+2025/11/14-18:53:00.612 22d4 Delete type=0 #23
+2025/11/14-18:53:00.613 4b6c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/14-18:53:00.614 4b6c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x003\x002\x001\x008\x003\x001\x005\x002\x001\x008\x002\x00:\x00w\x00e\x00b\x00:\x008\x00b\x00c\x001\x007\x008\x002\x00a\x00d\x000\x005\x002\x008\x004\x00b\x008\x004\x00b\x00f\x00a\x009\x007' @ 2610 : 1
+2025/11/14-18:53:00.614 4b6c Compacting 1@1 + 1@2 files
+2025/11/14-18:53:00.769 4b6c Generated table #28@1: 384 keys, 174479 bytes
+2025/11/14-18:53:00.769 4b6c Compacted 1@1 + 1@2 files => 174479 bytes
+2025/11/14-18:53:00.915 4b6c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/14-18:53:00.916 4b6c Delete type=2 #25
+2025/11/14-18:53:00.917 4b6c Delete type=2 #27
+2025/11/14-18:53:00.957 324c Manual compaction at level-1 from '\x00\x05\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x003\x002\x001\x008\x003\x001\x005\x002\x001\x008\x002\x00:\x00w\x00e\x00b\x00:\x008\x00b\x00c\x001\x007\x008\x002\x00a\x00d\x000\x005\x002\x008\x004\x00b\x008\x004\x00b\x00f\x00a\x009\x007' @ 2610 : 1 .. (end); will stop at (end)

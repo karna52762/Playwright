@@ -1,0 +1,6 @@
+2025/11/03-21:22:18.852 4bb8 Creating DB C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_claude.ai_0.indexeddb.leveldb since it was missing.
+2025/11/03-21:22:18.863 4bb8 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/03-21:22:31.015 3150 Level-0 table #5: started
+2025/11/03-21:22:31.017 3150 Level-0 table #5: 1309 bytes OK
+2025/11/03-21:22:31.019 3150 Delete type=0 #3
+2025/11/03-21:22:31.019 3150 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": "images/DKP2.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "bg-loader.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.js", "aws.js", "s3upload.js", "content.js" ],
+      "matches": [ "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://apis.google.com https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js;"
+   },
+   "description": "Records your actions in browser and writes a selenium script. You don't have to worry about html tags or deal in element inspection",
+   "host_permissions": [ "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "https://accounts.google.com/", "http://*/*", "https://*/*", "http://*/", "https://*/", "*://*/*", "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js" ],
+   "icons": {
+      "128": "/images/DKP2.png",
+      "16": "/images/DKP2.png",
+      "32": "/images/DKP2.png",
+      "48": "/images/DKP2.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmWoOoTMqMI0gahi+3WYCNGfHD467ScK85wl9KdBSlr5SFFJEAFi96I4TplY+JQj+/e+8C9S1VRu/qm/bWsKb+wRcB6pMwaDzFPk3KPKrzYlpma0dLEsDcpw6++8Jq8kLD/JMPdNaFKdXIGD2CBlgIo16Yi3apfb0qF2Uf+Fbi9CFYJpUNEN2eQoNqfrp80GUxI0vnm+olVLv12+iqo2aC5I+FJZloA21Uf1t7GLIFRXnE1iDZR8UxRx8RrFTHLmANJT6hLkdiAWyenrJtItreRiHH6Yni/4bzSZdamWxK4CmI5ZQslLhpdChOel+zUtuICsMNk2Qnj0vt8i62UzLjQIDAQAB",
+   "manifest_version": 3,
+   "name": "Selenium Auto Code Generator (Python)",
+   "permissions": [ "webNavigation", "storage", "tabs", "clipboardWrite", "notifications", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}

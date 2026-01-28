@@ -1,0 +1,6 @@
+2025/11/14-03:51:57.224 4c94 Creating DB C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.htx.com_0.indexeddb.leveldb since it was missing.
+2025/11/14-03:51:57.241 4c94 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.htx.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/14-09:49:27.389 858c Level-0 table #5: started
+2025/11/14-09:49:27.392 858c Level-0 table #5: 1490 bytes OK
+2025/11/14-09:49:27.396 858c Delete type=0 #3
+2025/11/14-09:49:27.396 858c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

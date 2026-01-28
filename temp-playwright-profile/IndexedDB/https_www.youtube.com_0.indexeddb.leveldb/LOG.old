@@ -1,0 +1,12 @@
+2025/11/18-11:37:21.937 53a4 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/18-11:37:21.939 53a4 Recovering log #254
+2025/11/18-11:37:21.948 53a4 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000254.log 
+2025/11/18-11:40:06.667 53a4 Level-0 table #260: started
+2025/11/18-11:40:06.679 53a4 Level-0 table #260: 1774060 bytes OK
+2025/11/18-11:40:06.681 53a4 Delete type=0 #254
+2025/11/18-11:40:20.263 7874 Compacting 1@1 + 1@2 files
+2025/11/18-11:40:20.274 7874 Generated table #261@1: 1628 keys, 88820 bytes
+2025/11/18-11:40:20.274 7874 Compacted 1@1 + 1@2 files => 88820 bytes
+2025/11/18-11:40:20.275 7874 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/18-11:40:20.276 7874 Delete type=2 #257
+2025/11/18-11:40:20.276 7874 Delete type=2 #260

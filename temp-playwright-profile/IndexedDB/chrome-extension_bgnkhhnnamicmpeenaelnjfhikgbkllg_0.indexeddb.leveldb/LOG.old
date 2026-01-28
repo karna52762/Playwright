@@ -1,0 +1,19 @@
+2025/11/18-12:21:43.355 62b8 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/18-12:21:43.361 62b8 Recovering log #22023
+2025/11/18-12:21:43.362 62b8 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/022023.log 
+2025/11/18-12:21:43.410 801c Level-0 table #22031: started
+2025/11/18-12:21:43.428 801c Level-0 table #22031: 629 bytes OK
+2025/11/18-12:21:43.441 801c Delete type=0 #22023
+2025/11/18-12:21:43.442 62b8 Manual compaction at level-0 from ' \xf6\x16\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xf7\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/18-12:21:43.712 19e0 Compacting 1@1 + 4@2 files
+2025/11/18-12:21:43.783 19e0 Generated table #22032@1: 254 keys, 2111547 bytes
+2025/11/18-12:21:43.863 19e0 Generated table #22033@1: 596 keys, 2144712 bytes
+2025/11/18-12:21:43.934 19e0 Generated table #22034@1: 508 keys, 2116847 bytes
+2025/11/18-12:21:43.947 19e0 Generated table #22035@1: 337 keys, 139185 bytes
+2025/11/18-12:21:43.947 19e0 Compacted 1@1 + 4@2 files => 6512291 bytes
+2025/11/18-12:21:43.957 19e0 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/11/18-12:21:43.958 19e0 Delete type=2 #22025
+2025/11/18-12:21:43.959 19e0 Delete type=2 #22026
+2025/11/18-12:21:43.959 19e0 Delete type=2 #22027
+2025/11/18-12:21:43.959 19e0 Delete type=2 #22028
+2025/11/18-12:21:43.959 19e0 Delete type=2 #22031

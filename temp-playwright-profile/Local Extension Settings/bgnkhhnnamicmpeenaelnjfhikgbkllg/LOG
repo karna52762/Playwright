@@ -1,0 +1,15 @@
+2025/11/18-12:29:37.298 6378 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\Local Extension Settings\bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2025/11/18-12:29:37.300 6378 Recovering log #8152
+2025/11/18-12:29:37.312 6378 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\Local Extension Settings\bgnkhhnnamicmpeenaelnjfhikgbkllg/008152.log 
+2025/11/18-12:40:01.957 6378 Level-0 table #8156: started
+2025/11/18-12:40:01.986 6378 Level-0 table #8156: 1653654 bytes OK
+2025/11/18-12:40:01.993 6378 Delete type=0 #8152
+2025/11/18-12:40:01.997 8474 Compacting 4@0 + 1@1 files
+2025/11/18-12:40:02.026 8474 Generated table #8157@0: 7 keys, 336821 bytes
+2025/11/18-12:40:02.026 8474 Compacted 4@0 + 1@1 files => 336821 bytes
+2025/11/18-12:40:02.028 8474 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/18-12:40:02.028 8474 Delete type=2 #8146
+2025/11/18-12:40:02.028 8474 Delete type=2 #8149
+2025/11/18-12:40:02.029 8474 Delete type=2 #8151
+2025/11/18-12:40:02.029 8474 Delete type=2 #8153
+2025/11/18-12:40:02.029 8474 Delete type=2 #8156

@@ -1,0 +1,6 @@
+2025/11/18-12:29:35.528 6378 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\Sync Data\LevelDB/MANIFEST-000001
+2025/11/18-12:29:35.530 6378 Recovering log #4488
+2025/11/18-12:29:35.536 6378 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\Sync Data\LevelDB/004488.log 
+2025/11/18-12:41:44.649 6378 Level-0 table #4493: started
+2025/11/18-12:41:44.662 6378 Level-0 table #4493: 197829 bytes OK
+2025/11/18-12:41:44.665 6378 Delete type=0 #4488

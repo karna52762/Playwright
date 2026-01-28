@@ -1,0 +1,22 @@
+2025/11/18-11:28:19.574 4990 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\chrome-extension_bkkbcggnhapdmkeljlodobbkopceiche_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/18-11:28:19.574 4990 Recovering log #526
+2025/11/18-11:28:19.604 4990 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\IndexedDB\chrome-extension_bkkbcggnhapdmkeljlodobbkopceiche_0.indexeddb.leveldb/000526.log 
+2025/11/18-11:34:41.096 42b4 Level-0 table #530: started
+2025/11/18-11:34:41.107 42b4 Level-0 table #530: 602066 bytes OK
+2025/11/18-11:34:41.109 42b4 Delete type=0 #526
+2025/11/18-11:34:41.110 42b4 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00z\x00y\x00b\x00r\x00d\x00r\x00.\x00c\x00o\x00m' @ 7530852 : 1
+2025/11/18-11:34:41.110 42b4 Compacting 1@0 + 1@1 files
+2025/11/18-11:34:41.136 42b4 Generated table #531@0: 22453 keys, 365195 bytes
+2025/11/18-11:34:41.137 42b4 Compacted 1@0 + 1@1 files => 365195 bytes
+2025/11/18-11:34:41.137 42b4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/18-11:34:41.138 42b4 Delete type=2 #527
+2025/11/18-11:34:41.138 42b4 Delete type=2 #530
+2025/11/18-11:34:41.139 42b4 Manual compaction at level-0 from '\x00\x01\x01\x02\x01\x0a\x00z\x00y\x00b\x00r\x00d\x00r\x00.\x00c\x00o\x00m' @ 7530852 : 1 .. (end); will stop at (end)
+2025/11/18-11:34:41.139 42b4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00z\x00y\x00b\x00r\x00d\x00r\x00.\x00c\x00o\x00m' @ 7530852 : 1
+2025/11/18-11:34:41.139 42b4 Compacting 1@1 + 1@2 files
+2025/11/18-11:34:41.148 42b4 Generated table #532@1: 6433 keys, 236223 bytes
+2025/11/18-11:34:41.148 42b4 Compacted 1@1 + 1@2 files => 236223 bytes
+2025/11/18-11:34:41.149 42b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/18-11:34:41.150 42b4 Delete type=2 #524
+2025/11/18-11:34:41.150 42b4 Delete type=2 #531
+2025/11/18-11:34:41.151 42b4 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00z\x00y\x00b\x00r\x00d\x00r\x00.\x00c\x00o\x00m' @ 7530852 : 1 .. (end); will stop at (end)

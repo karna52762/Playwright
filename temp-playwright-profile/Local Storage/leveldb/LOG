@@ -1,0 +1,18 @@
+2025/11/18-12:29:35.625 7b30 Reusing MANIFEST C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\Local Storage\leveldb/MANIFEST-000001
+2025/11/18-12:29:35.634 7b30 Recovering log #1851
+2025/11/18-12:29:35.641 7b30 Reusing old log C:\Users\Karna\AppData\Local\Google\Chrome\User Data\Profile 11\Local Storage\leveldb/001851.log 
+2025/11/18-12:42:15.031 7b30 Level-0 table #1855: started
+2025/11/18-12:42:15.039 7b30 Level-0 table #1855: 47876 bytes OK
+2025/11/18-12:42:15.042 7b30 Delete type=0 #1851
+2025/11/18-12:42:15.043 7b30 Compacting 4@0 + 1@1 files
+2025/11/18-12:42:15.072 7b30 Generated table #1856@0: 5196 keys, 2037553 bytes
+2025/11/18-12:42:15.072 7b30 Compacted 4@0 + 1@1 files => 2037553 bytes
+2025/11/18-12:42:15.074 7b30 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/18-12:42:15.075 7b30 Delete type=2 #1845
+2025/11/18-12:42:15.076 7b30 Delete type=2 #1847
+2025/11/18-12:42:15.076 7b30 Delete type=2 #1849
+2025/11/18-12:42:15.076 7b30 Delete type=2 #1852
+2025/11/18-12:42:15.076 7b30 Delete type=2 #1855
+2025/11/18-13:17:40.613 7b30 Level-0 table #1858: started
+2025/11/18-13:17:40.621 7b30 Level-0 table #1858: 17356 bytes OK
+2025/11/18-13:17:40.624 7b30 Delete type=0 #1854
